@@ -35,4 +35,6 @@ int main(){
         cout<<"The given array is Sorted"<<endl;
     }
     else cout<<"The given array is NOT Sorted"<<endl;
+  
+    return 0;
 }
