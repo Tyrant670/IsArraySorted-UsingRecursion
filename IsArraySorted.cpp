@@ -10,10 +10,12 @@ This Problem is to check wheather the given array is Sorted
 using namespace std;
 
 bool IsSorted(int arr[],int n){
+    //Base Case
     if (n==0 or n==1){
         return true;
     }
     
+    // Recurive Case
     if(arr[0]<arr[1] and IsSorted(arr+1 , n-1)){
         return true;
     }
